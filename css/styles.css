@@ -1,6 +1,38 @@
+
+
+/*Bio & Resume */
+
+/* Portfolio */
+
 body {background: #f0f;
 }
 
 img {
 	width: 320px;
+}
+
+
+.container {
+	margin: 0 auto;
+	width: 50%;
+}
+
+/* Typography */
+
+h1, h2, h3 {
+	font-family: 'Pontano Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+p, li {
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+.dropcap {
+	float: left;
+	font-size: 4em;
+	background: teal;
+	color: white;
+	padding: .5em; 
+	margin: .25em;
 }
