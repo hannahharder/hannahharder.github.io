@@ -36,7 +36,7 @@ li {
   }
 
 img {
-  display: block;
+  float: left;
   max-width:25%;
   height:auto;
   border-radius: 50%;
