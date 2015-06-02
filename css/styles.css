@@ -1,38 +1,76 @@
-
-
-/*Bio & Resume */
-
-/* Portfolio */
-
-body {background: #f0f;
+/* Your Styling */
+a {
+  color: teal;
+  text-decoration: none;
+  height: 2em;
+  line-height: 2em;
+  padding: 1em;
+  text-transform: uppercase;
+  transition: letter-spacing 1s;
 }
+
+a:hover {
+  letter-spacing: .25em;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+h1 {
+  color: teal;
+  font-size: 4em;
+  
+  h1 {
+  -webkit-animation: fadein 2s both;
+   animation: fadein 2s both;
+   font-family: 'Satisfy', cursive;
+}
+  
+  h2 {
+    font-family: 'Satisfy', cursive;
+    color: teal;
+  }
+  
+  P {
+    font-family: 'Dosis', sans-serif;
+  }
 
 img {
-	width: 320px;
+  display: block;
+  max-width:25%;
+  height:auto;
+  border-radius: 50%;
+	width: 200px;
+	height: 200px;
 }
 
-
-.container {
-	margin: 0 auto;
-	width: 50%;
+ h6 {
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  h6::before {
+    content:'©';
+    padding-right: .25em;
+}
+  }  
+/* Keyframe Animation */
+@-webkit-keyframes fadein {
+  0% { 
+  transform: scale(.5) translateY(-1em) ;
+  }
+  100% { 
+  transform: translateY(0em) 
+  }
 }
 
-/* Typography */
-
-h1, h2, h3 {
-	font-family: 'Pontano Sans', sans-serif;
-	text-transform: uppercase;
-}
-
-p, li {
-	font-family: 'Pontano Sans', sans-serif;
-}
-
-.dropcap {
-	float: left;
-	font-size: 4em;
-	background: teal;
-	color: white;
-	padding: .5em; 
-	margin: .25em;
+@keyframes fadein {
+  0% { 
+  opacity: .3;
+  transform: translateY(-1em);
+  }
+  100% { 
+  transform: translateY(0em) 
+  }
 }
