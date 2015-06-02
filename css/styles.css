@@ -18,11 +18,9 @@ li {
   display: inline-block;
 }
 
-h1 {
+  h1 {
   color: teal;
   font-size: 4em;
-  
-  h1 {
   -webkit-animation: fadein 2s both;
    animation: fadein 2s both;
    font-family: 'Satisfy', cursive;
@@ -33,7 +31,7 @@ h1 {
     color: teal;
   }
   
-  P {
+  p {
     font-family: 'Dosis', sans-serif;
   }
 
