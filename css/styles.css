@@ -24,12 +24,13 @@ li {
 }
 
   h1 {
+  text-align: center;
   color: teal;
   font-size: 4em;
   -webkit-animation: fadein 2s both;
-   animation: fadein 2s both;
-   font-family: 'Satisfy', cursive;
-  text-align: center;
+  animation: fadein 2s both;
+  font-family: 'Satisfy', cursive;
+
 }
   
   h2 {
@@ -49,8 +50,8 @@ img {
 }
 
  h6 {
-    font-family: 'Dosis', sans-serif;
     text-align: center;
+    font-family: 'Dosis', sans-serif;
   }
   
   h6::before {
@@ -59,8 +60,7 @@ img {
 }
   }  
 
-#me {
-}
+
 /* Keyframe Animation */
 @-webkit-keyframes fadein {
   0% { 
