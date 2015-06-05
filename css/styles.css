@@ -3,6 +3,10 @@ body {
   background: url(https://36.media.tumblr.com/ec0cc677ef05926e876ed3917e693627/tumblr_nphto1GsJh1tghftno1_400.png);
 }
 
+
+nav {
+}
+
 a {
   background: white;
   color: teal;
@@ -24,13 +28,12 @@ li {
 }
 
   h1 {
-  text-align: center;
   color: teal;
   font-size: 4em;
   -webkit-animation: fadein 2s both;
-  animation: fadein 2s both;
-  font-family: 'Satisfy', cursive;
-
+   animation: fadein 2s both;
+   font-family: 'Satisfy', cursive;
+  text-align: center;
 }
   
   h2 {
@@ -43,23 +46,50 @@ li {
   }
 
 img {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #000;
   float: left;
-  height:auto;
-  width: 20.83%;
-  border-radius: 180px;
+  margin: 0 20px 20px 0;
+  width: 270px;
+  height: 360px;
 }
 
  h6 {
-    text-align: center;
     font-family: 'Dosis', sans-serif;
+    text-align: center;
   }
   
   h6::before {
     content:'©';
     padding-right: .25em;
-}
-  }  
+} 
 
+input {
+  display: block;
+  margin: .5em 0;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+    background-color: teal;
+    border-radius: 10px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+  }
+
+input[type="text"] {
+  font-family: 'Dosis', sans-serif;
+}
+
+input[type="email"] {
+  font-family: 'Dosis', sans-serif;
+}
+
+textarea {
+  font-family: 'Dosis', sans-serif;
+}
 
 /* Keyframe Animation */
 @-webkit-keyframes fadein {
