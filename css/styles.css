@@ -1,12 +1,17 @@
 /* Your Styling */
+body {
+  background: url(../img/background.png);
+}
+
 a {
+  background: white;
   color: teal;
   text-decoration: none;
   height: 2em;
   line-height: 2em;
   padding: 1em;
   text-transform: uppercase;
-  transition: letter-spacing 1s;
+  transition: letter-spacing .5s;
 }
 
 a:hover {
@@ -24,6 +29,7 @@ li {
   -webkit-animation: fadein 2s both;
    animation: fadein 2s both;
    font-family: 'Satisfy', cursive;
+  text-align: center;
 }
   
   h2 {
@@ -37,15 +43,14 @@ li {
 
 img {
   float: left;
-  max-width:25%;
   height:auto;
-  border-radius: 50%;
-	width: 200px;
-	height: 200px;
+  width: 20.83%;
+  border-radius: 180px;
 }
 
  h6 {
     font-family: 'Dosis', sans-serif;
+    text-align: center;
   }
   
   h6::before {
@@ -53,6 +58,9 @@ img {
     padding-right: .25em;
 }
   }  
+
+#me {
+}
 /* Keyframe Animation */
 @-webkit-keyframes fadein {
   0% { 
