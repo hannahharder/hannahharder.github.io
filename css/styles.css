@@ -7,8 +7,12 @@ body {
 nav {
 }
 
+#current {
+  color: purple;
+}
+
 a {
-  background: white;
+  font-family: 'Dosis', sans-serif; 
   color: teal;
   text-decoration: none;
   height: 2em;
@@ -39,6 +43,12 @@ li {
   h2 {
     font-family: 'Satisfy', cursive;
     color: teal;
+  }
+  
+   h3 {
+    font-family: 'Dosis', sans-serif;
+    color: teal;
+    text-transform: uppercase;
   }
   
   p {
