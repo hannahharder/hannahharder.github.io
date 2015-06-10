@@ -1,35 +1,39 @@
-/* Your Styling */
+
 body {
   background: url(https://36.media.tumblr.com/ec0cc677ef05926e876ed3917e693627/tumblr_nphto1GsJh1tghftno1_400.png);
 }
 
-
-nav {
-}
+/*Nav Bar Styling*/
 
 #current {
   color: purple;
 }
 
-a {
-  font-family: 'Dosis', sans-serif; 
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  font-family: 'Dosis', sans-serif;
+}
+nav ul li a {
   color: teal;
   text-decoration: none;
   height: 2em;
   line-height: 2em;
   padding: 1em;
+  font-family: 'Dosis', sans-serif;  
   text-transform: uppercase;
-  transition: letter-spacing .5s;
 }
 
-a:hover {
-  letter-spacing: .25em;
+
+nav ul li a:hover {
+  color: #006400;
 }
 
-li {
-  list-style: none;
-  display: inline-block;
+nav ul li a:active {
+  color: #006400;
 }
+
+/*Typography*/
 
   h1 {
   color: teal;
@@ -39,30 +43,40 @@ li {
    font-family: 'Satisfy', cursive;
   text-align: center;
 }
-  
+
   h2 {
-    font-family: 'Satisfy', cursive;
-    color: teal;
-  }
-  
-   h3 {
     font-family: 'Dosis', sans-serif;
     color: teal;
     text-transform: uppercase;
+  }
+
+  
+  h3 {
+    font-family: 'Satisfy', cursive;
+    color: teal;
+  }
+
+
+  h4 {
+    font-family: 'Dosis', sans-serif;
+    color: teal;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  h5 {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
   }
   
   p {
     font-family: 'Dosis', sans-serif;
   }
 
-img {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 0 8px #000;
-  float: left;
-  margin: 0 20px 20px 0;
-  width: 270px;
-  height: 360px;
+
+  li {
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
 }
 
  h6 {
@@ -74,6 +88,31 @@ img {
     content:'©';
     padding-right: .25em;
 } 
+
+/*Images*/
+
+#main {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #000;
+  float: left;
+  margin: 0 20px 20px 0;
+  width: 500px;
+  height: 300px;
+}
+
+#aboutme {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #000;
+  float: left;
+  margin: 0 20px 20px 0;
+  width: 270px;
+  height: 360px;
+}
+
+
+/*Contact Form Styling*/
 
 input {
   display: block;
@@ -101,7 +140,73 @@ textarea {
   font-family: 'Dosis', sans-serif;
 }
 
-/* Keyframe Animation */
+/*Portfolio Styling*/
+
+.portfolio li {
+  display: inline-block;
+  margin: 1em;
+}
+
+.gallery {
+  overflow: hidden;
+  width: 300px;
+  height: 250px;
+  position: relative;
+  border-radius: 20px;
+  transition: 100ms;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #000;
+}
+
+.gallery p {
+  background: rgba(0,128,128,1); 
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  font-size: 1.5em;
+  color: white;
+  opacity: 0;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  text-align: center;
+}
+
+.gallery p:hover {
+  -webkit-animation: opacity .75s both;
+   animation: opacity .75s both;
+}
+
+.gallery #img1 {
+  transform-origin: 50% 50%;
+  transform: scale(1.2) translate(0px, -70px);
+}
+
+.gallery #img2 {
+  transform-origin: 50% 50%;
+  transform: scale(2) translate(45px, 0px);
+}
+
+.gallery #img6 {
+  transform-origin: 50% 50%;
+  transform: scale(.85) translate(0px, -30px);
+}
+
+.gallery #img8 {
+  transform-origin: 50% 50%;
+  transform: scale(1.02);
+}
+
+.gallery #img9 {
+  transform-origin: 50% 50%;
+  transform: translate(0px, 30px);
+}
+
+
+
+/* Header　Keyframe Animation */
+
 @-webkit-keyframes fadein {
   0% { 
   transform: scale(.5) translateY(-1em) ;
@@ -120,3 +225,26 @@ textarea {
   transform: translateY(0em) 
   }
 }
+
+/*Portfolio Keyframe*/
+
+@-webkit-keyframes opacity {
+  0% { 
+   opacity: 0; 
+
+  }
+  100% { 
+    opacity: 1;
+  }
+}
+
+keyframes opacity {
+  0% { 
+   opacity: 0; 
+
+  }
+  100% { 
+    opacity: 1;
+  }
+}
+
