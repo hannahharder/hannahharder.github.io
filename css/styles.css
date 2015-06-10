@@ -231,7 +231,7 @@ textarea {
 
 .gallery #img6 {
   transform-origin: 50% 50%;
-  transform: scale(.85) translate(0px, -30px);
+  transform: scale(1) translate(0px, -7px);
 }
 
 .gallery #img8 {
@@ -241,7 +241,7 @@ textarea {
 
 .gallery #img9 {
   transform-origin: 50% 50%;
-  transform: translate(0px, 30px);
+  transform: scale(1.4) translate(0px, 24px);
 }
 
 
